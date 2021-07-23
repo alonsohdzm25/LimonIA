@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/primary_group">
+        <item
+            android:id="@+id/item_plagaDetection"
+            android:icon="@mipmap/icon"
+            android:iconTintMode="screen"
+            android:title="Detección de plagas"
+            />
+        <item
+            android:id="@+id/item_plagas"
+            android:icon="@mipmap/icon"
+            android:iconTintMode="screen"
+            android:iconTint="@color/green_1"
+            android:title="Plagas"/>
+        <item
+            android:id="@+id/item_productos"
+            android:icon="@mipmap/icon"
+            android:iconTintMode="screen"
+            android:title="Productos prohibidos"/>
+    </group>
+    <group
+        android:id="@+id/secondary_group"
+        >
+        <item
+            android:id="@+id/item_faq"
+            android:icon="@mipmap/icon"
+            android:iconTintMode="screen"
+            android:title="Preguntas frecuentes" />
+        <item
+            android:id="@+id/item_info"
+            android:icon="@mipmap/icon"
+            android:iconTintMode="screen"
+            android:title="Información" />
+    </group>
+</menu>

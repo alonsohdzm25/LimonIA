@@ -1,0 +1,2 @@
+com/limonia/BuildConfig.java
+ com.limonia.BuildConfig

@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">LimonIA</string>
+    <string name="icono_limonia">Icono LimonIA</string>
+    <string name="etiqueta_login">Etiqueta Login</string>
+    <string name="correo">Correo</string>
+    <string name="password">Contraseña</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="login_title">Login</string>
+    <string name="todavia_no_esta_registrado">¿Todavia no esta registrado?</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="o_in">O ingrese con</string>
+    <string name="loginGoogle">Ingrese con Google</string>
+    <string name="forget_password">Olvide mi contraseña</string>
+    <string name="ingresar_con_google">Ingresar con google</string>
+    <string name="ingresar_con_facebook">Ingresar con Facebook</string>
+    <string name="registro">Registro</string>
+    <string name="username">Usuario</string>
+    <string name="password_repeat">Confirmar contraseña</string>
+    <string name="alredy_register">¿Ya tiene una cuenta?</string>
+    <string name="text_recuperar_contrasenia">Introduzca su correo electronico para recibir instrucciones sobre como establecer una nueva contraseña</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="tomar_foto">Tomar Foto</string>
+    <string name="imagen_capturada">Imagen Capturada</string>
+    <string name="navigation_drawer_open">Menu abierto</string>
+    <string name="navigation_drawer_close">Menu cerrado</string>
+    <string name="instruccion_detector">Presione en cualquier lugar para comenzar a utilizar el detector de plagas</string>
+    <string name="si">Si</string>
+    <string name="no">No</string>
+    <string name="recoverpass">Restaurar contraseña</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="msg">Version 1.0.0</string>
+    <string name="email">limonia_org@hotmail.com</string>
+
+    <!--Preguntas-->
+    <string name="pregunta1">¿Qué es LimonIA?</string>
+    <string name="respuesta1">LimonIA es una aplicación móvil creada para apoyar a los citricultores de México a realizar la correcta detección de plagas y enfermedades en el limón persa.</string>
+
+    <string name="pregunta2">¿Cómo uso la aplicación?</string>
+    <string name="respuesta2">Una vez descargada la aplicación solo debe capturar una imagen del limón que tenga la plaga sobre la que desea información.</string>
+
+    <string name="pregunta3">¿Cuántas plagas puede detectar la aplicación?</string>
+    <string name="respuesta3">Por el momento solo puede realizar la detección de 4 plagas, pero seguimos trabajando para agregar más.</string>
+
+    <string name="pregunta4">¿Qué son los productos prohibidos?</string>
+    <string name="respuesta4">Son productos que no están permitidos para su uso en la producción de limón persa, por lo que debe de evitar utilizarlos.</string>
+    <string name="faq">FAQs</string>
+    <string name="contacto">Contacto</string>
+</resources>

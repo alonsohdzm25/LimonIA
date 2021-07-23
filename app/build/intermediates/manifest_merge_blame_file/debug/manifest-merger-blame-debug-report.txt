@@ -1,0 +1,125 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.limonia"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\alons\AndroidStudioProjects\LimonIA\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\alons\AndroidStudioProjects\LimonIA\app\src\main\AndroidManifest.xml
+10
+11    <uses-feature android:name="android.hardware.camera.any" />
+11-->C:\Users\alons\AndroidStudioProjects\LimonIA\app\src\main\AndroidManifest.xml:6:5-64
+11-->C:\Users\alons\AndroidStudioProjects\LimonIA\app\src\main\AndroidManifest.xml:6:19-61
+12
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->C:\Users\alons\AndroidStudioProjects\LimonIA\app\src\main\AndroidManifest.xml:8:5-79
+13-->C:\Users\alons\AndroidStudioProjects\LimonIA\app\src\main\AndroidManifest.xml:8:22-76
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\alons\AndroidStudioProjects\LimonIA\app\src\main\AndroidManifest.xml:9:5-67
+14-->C:\Users\alons\AndroidStudioProjects\LimonIA\app\src\main\AndroidManifest.xml:9:22-64
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->C:\Users\alons\AndroidStudioProjects\LimonIA\app\src\main\AndroidManifest.xml:10:5-65
+15-->C:\Users\alons\AndroidStudioProjects\LimonIA\app\src\main\AndroidManifest.xml:10:22-62
+16
+17    <application
+17-->C:\Users\alons\AndroidStudioProjects\LimonIA\app\src\main\AndroidManifest.xml:12:5-49:19
+18        android:allowBackup="true"
+18-->C:\Users\alons\AndroidStudioProjects\LimonIA\app\src\main\AndroidManifest.xml:13:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.5.0] C:\Users\alons\.gradle\caches\transforms-3\09f95e9f8511183468fcf3812c4745a9\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/icon"
+21-->C:\Users\alons\AndroidStudioProjects\LimonIA\app\src\main\AndroidManifest.xml:14:9-36
+22        android:label="@string/app_name"
+22-->C:\Users\alons\AndroidStudioProjects\LimonIA\app\src\main\AndroidManifest.xml:15:9-41
+23        android:supportsRtl="true"
+23-->C:\Users\alons\AndroidStudioProjects\LimonIA\app\src\main\AndroidManifest.xml:16:9-35
+24        android:testOnly="true"
+25        android:theme="@style/Theme.LimonIA" >
+25-->C:\Users\alons\AndroidStudioProjects\LimonIA\app\src\main\AndroidManifest.xml:17:9-45
+26        <activity android:name="com.limonia.views.InfoActivity" />
+26-->C:\Users\alons\AndroidStudioProjects\LimonIA\app\src\main\AndroidManifest.xml:18:9-65
+26-->C:\Users\alons\AndroidStudioProjects\LimonIA\app\src\main\AndroidManifest.xml:18:19-53
+27        <activity android:name="com.limonia.views.FaqActivity" />
+27-->C:\Users\alons\AndroidStudioProjects\LimonIA\app\src\main\AndroidManifest.xml:19:9-55
+27-->C:\Users\alons\AndroidStudioProjects\LimonIA\app\src\main\AndroidManifest.xml:19:19-52
+28        <activity android:name="com.limonia.views.RecoveryPasswordActivity" >
+28-->C:\Users\alons\AndroidStudioProjects\LimonIA\app\src\main\AndroidManifest.xml:20:9-32:20
+28-->C:\Users\alons\AndroidStudioProjects\LimonIA\app\src\main\AndroidManifest.xml:20:19-65
+29            <intent-filter android:autoVerify="true" >
+29-->C:\Users\alons\AndroidStudioProjects\LimonIA\app\src\main\AndroidManifest.xml:21:13-31:29
+29-->C:\Users\alons\AndroidStudioProjects\LimonIA\app\src\main\AndroidManifest.xml:21:28-53
+30                <action android:name="android.intent.action.VIEW" />
+30-->C:\Users\alons\AndroidStudioProjects\LimonIA\app\src\main\AndroidManifest.xml:22:17-69
+30-->C:\Users\alons\AndroidStudioProjects\LimonIA\app\src\main\AndroidManifest.xml:22:25-66
+31
+32                <category android:name="android.intent.category.DEFAULT" />
+32-->C:\Users\alons\AndroidStudioProjects\LimonIA\app\src\main\AndroidManifest.xml:24:17-76
+32-->C:\Users\alons\AndroidStudioProjects\LimonIA\app\src\main\AndroidManifest.xml:24:27-73
+33                <category android:name="android.intent.category.BROWSABLE" />
+33-->C:\Users\alons\AndroidStudioProjects\LimonIA\app\src\main\AndroidManifest.xml:25:17-78
+33-->C:\Users\alons\AndroidStudioProjects\LimonIA\app\src\main\AndroidManifest.xml:25:27-75
+34
+35                <data
+35-->C:\Users\alons\AndroidStudioProjects\LimonIA\app\src\main\AndroidManifest.xml:27:17-30:46
+36                    android:host="limonia.herokuapp.com"
+36-->C:\Users\alons\AndroidStudioProjects\LimonIA\app\src\main\AndroidManifest.xml:28:21-57
+37                    android:pathPrefix="/api/auth/recoverypassword"
+37-->C:\Users\alons\AndroidStudioProjects\LimonIA\app\src\main\AndroidManifest.xml:29:21-68
+38                    android:scheme="https" />
+38-->C:\Users\alons\AndroidStudioProjects\LimonIA\app\src\main\AndroidManifest.xml:30:21-43
+39            </intent-filter>
+40        </activity>
+41        <activity android:name="com.limonia.views.ProductoActivity" />
+41-->C:\Users\alons\AndroidStudioProjects\LimonIA\app\src\main\AndroidManifest.xml:33:9-60
+41-->C:\Users\alons\AndroidStudioProjects\LimonIA\app\src\main\AndroidManifest.xml:33:19-57
+42        <activity android:name="com.limonia.views.CameraActivity" />
+42-->C:\Users\alons\AndroidStudioProjects\LimonIA\app\src\main\AndroidManifest.xml:34:9-58
+42-->C:\Users\alons\AndroidStudioProjects\LimonIA\app\src\main\AndroidManifest.xml:34:19-55
+43        <activity android:name="com.limonia.views.PhotoActivity" />
+43-->C:\Users\alons\AndroidStudioProjects\LimonIA\app\src\main\AndroidManifest.xml:35:9-57
+43-->C:\Users\alons\AndroidStudioProjects\LimonIA\app\src\main\AndroidManifest.xml:35:19-54
+44        <activity android:name="com.limonia.views.PlagasActivity" />
+44-->C:\Users\alons\AndroidStudioProjects\LimonIA\app\src\main\AndroidManifest.xml:36:9-58
+44-->C:\Users\alons\AndroidStudioProjects\LimonIA\app\src\main\AndroidManifest.xml:36:19-55
+45        <activity android:name="com.limonia.views.PasswordActivity" />
+45-->C:\Users\alons\AndroidStudioProjects\LimonIA\app\src\main\AndroidManifest.xml:37:9-60
+45-->C:\Users\alons\AndroidStudioProjects\LimonIA\app\src\main\AndroidManifest.xml:37:19-57
+46        <activity android:name="com.limonia.views.SignUpActivity" />
+46-->C:\Users\alons\AndroidStudioProjects\LimonIA\app\src\main\AndroidManifest.xml:38:9-58
+46-->C:\Users\alons\AndroidStudioProjects\LimonIA\app\src\main\AndroidManifest.xml:38:19-55
+47        <activity android:name="com.limonia.views.MainActivity" />
+47-->C:\Users\alons\AndroidStudioProjects\LimonIA\app\src\main\AndroidManifest.xml:39:9-56
+47-->C:\Users\alons\AndroidStudioProjects\LimonIA\app\src\main\AndroidManifest.xml:39:19-53
+48        <activity
+48-->C:\Users\alons\AndroidStudioProjects\LimonIA\app\src\main\AndroidManifest.xml:40:9-48:20
+49            android:name="com.limonia.views.LoginActivity"
+49-->C:\Users\alons\AndroidStudioProjects\LimonIA\app\src\main\AndroidManifest.xml:41:13-48
+50            android:theme="@style/SplashTheme" >
+50-->C:\Users\alons\AndroidStudioProjects\LimonIA\app\src\main\AndroidManifest.xml:42:13-47
+51            <intent-filter>
+51-->C:\Users\alons\AndroidStudioProjects\LimonIA\app\src\main\AndroidManifest.xml:43:13-47:29
+52                <action android:name="android.intent.action.MAIN" />
+52-->C:\Users\alons\AndroidStudioProjects\LimonIA\app\src\main\AndroidManifest.xml:44:17-69
+52-->C:\Users\alons\AndroidStudioProjects\LimonIA\app\src\main\AndroidManifest.xml:44:25-66
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+54-->C:\Users\alons\AndroidStudioProjects\LimonIA\app\src\main\AndroidManifest.xml:46:17-77
+54-->C:\Users\alons\AndroidStudioProjects\LimonIA\app\src\main\AndroidManifest.xml:46:27-74
+55            </intent-filter>
+56        </activity>
+57
+58        <provider
+58-->[com.squareup.picasso:picasso:2.71828] C:\Users\alons\.gradle\caches\transforms-3\8f3c775e94f3d13086a80fd168a6eb0b\transformed\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+59            android:name="com.squareup.picasso.PicassoProvider"
+59-->[com.squareup.picasso:picasso:2.71828] C:\Users\alons\.gradle\caches\transforms-3\8f3c775e94f3d13086a80fd168a6eb0b\transformed\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+60            android:authorities="com.limonia.com.squareup.picasso"
+60-->[com.squareup.picasso:picasso:2.71828] C:\Users\alons\.gradle\caches\transforms-3\8f3c775e94f3d13086a80fd168a6eb0b\transformed\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+61            android:exported="false" />
+61-->[com.squareup.picasso:picasso:2.71828] C:\Users\alons\.gradle\caches\transforms-3\8f3c775e94f3d13086a80fd168a6eb0b\transformed\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+62    </application>
+63
+64</manifest>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.FaqActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="66dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="100dp"
+        android:contentDescription="@string/icono_limonia"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/icon" />
+
+    <TextView
+        android:id="@+id/txtFaq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:contentDescription="Preguntas frecuentes"
+        android:fontFamily="monospace"
+        android:text="@string/faq"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtFaq"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:textColor="@color/green_2"
+            android:textFontWeight="600"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pregunta1"
+            android:fontFamily="monospace"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/respuesta1"
+            android:fontFamily="monospace"/>
+        <TextView
+            android:textColor="@color/green_2"
+            android:textFontWeight="600"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pregunta2"
+            android:fontFamily="monospace"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/respuesta2"
+            android:fontFamily="monospace"/>
+        <TextView
+            android:textColor="@color/green_2"
+            android:textFontWeight="600"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pregunta3"
+            android:fontFamily="monospace"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/respuesta3"
+            android:fontFamily="monospace"/>
+        <TextView
+            android:textColor="@color/green_2"
+            android:textFontWeight="600"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pregunta4"
+            android:fontFamily="monospace"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/respuesta4"
+            android:fontFamily="monospace"/>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

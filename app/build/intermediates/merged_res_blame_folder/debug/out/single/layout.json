@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "C:\\Users\\alons\\AndroidStudioProjects\\LimonIA\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_password.xml",
+        "source": "C:\\Users\\alons\\AndroidStudioProjects\\LimonIA\\app\\src\\main\\res\\layout\\activity_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\alons\\AndroidStudioProjects\\LimonIA\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login.xml",
+        "source": "C:\\Users\\alons\\AndroidStudioProjects\\LimonIA\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\alons\\AndroidStudioProjects\\LimonIA\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_email_confirm.xml",
+        "source": "C:\\Users\\alons\\AndroidStudioProjects\\LimonIA\\app\\src\\main\\res\\layout\\activity_email_confirm.xml"
+    },
+    {
+        "merged": "C:\\Users\\alons\\AndroidStudioProjects\\LimonIA\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_recovery_password.xml",
+        "source": "C:\\Users\\alons\\AndroidStudioProjects\\LimonIA\\app\\src\\main\\res\\layout\\activity_recovery_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\alons\\AndroidStudioProjects\\LimonIA\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_info.xml",
+        "source": "C:\\Users\\alons\\AndroidStudioProjects\\LimonIA\\app\\src\\main\\res\\layout\\activity_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\alons\\AndroidStudioProjects\\LimonIA\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\app_bar_main.xml",
+        "source": "C:\\Users\\alons\\AndroidStudioProjects\\LimonIA\\app\\src\\main\\res\\layout\\app_bar_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\alons\\AndroidStudioProjects\\LimonIA\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\nav_header_main.xml",
+        "source": "C:\\Users\\alons\\AndroidStudioProjects\\LimonIA\\app\\src\\main\\res\\layout\\nav_header_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\alons\\AndroidStudioProjects\\LimonIA\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_plaga.xml",
+        "source": "C:\\Users\\alons\\AndroidStudioProjects\\LimonIA\\app\\src\\main\\res\\layout\\item_plaga.xml"
+    },
+    {
+        "merged": "C:\\Users\\alons\\AndroidStudioProjects\\LimonIA\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_producto.xml",
+        "source": "C:\\Users\\alons\\AndroidStudioProjects\\LimonIA\\app\\src\\main\\res\\layout\\activity_producto.xml"
+    },
+    {
+        "merged": "C:\\Users\\alons\\AndroidStudioProjects\\LimonIA\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_camera.xml",
+        "source": "C:\\Users\\alons\\AndroidStudioProjects\\LimonIA\\app\\src\\main\\res\\layout\\activity_camera.xml"
+    },
+    {
+        "merged": "C:\\Users\\alons\\AndroidStudioProjects\\LimonIA\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\alons\\AndroidStudioProjects\\LimonIA\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\alons\\AndroidStudioProjects\\LimonIA\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_producto.xml",
+        "source": "C:\\Users\\alons\\AndroidStudioProjects\\LimonIA\\app\\src\\main\\res\\layout\\item_producto.xml"
+    },
+    {
+        "merged": "C:\\Users\\alons\\AndroidStudioProjects\\LimonIA\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_photo.xml",
+        "source": "C:\\Users\\alons\\AndroidStudioProjects\\LimonIA\\app\\src\\main\\res\\layout\\activity_photo.xml"
+    },
+    {
+        "merged": "C:\\Users\\alons\\AndroidStudioProjects\\LimonIA\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_sign_up.xml",
+        "source": "C:\\Users\\alons\\AndroidStudioProjects\\LimonIA\\app\\src\\main\\res\\layout\\activity_sign_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\alons\\AndroidStudioProjects\\LimonIA\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_plagas.xml",
+        "source": "C:\\Users\\alons\\AndroidStudioProjects\\LimonIA\\app\\src\\main\\res\\layout\\activity_plagas.xml"
+    },
+    {
+        "merged": "C:\\Users\\alons\\AndroidStudioProjects\\LimonIA\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_faq.xml",
+        "source": "C:\\Users\\alons\\AndroidStudioProjects\\LimonIA\\app\\src\\main\\res\\layout\\activity_faq.xml"
+    }
+]
